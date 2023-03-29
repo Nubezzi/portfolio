@@ -5,6 +5,7 @@
     import Hero from "../components/Hero.svelte"
     import Contact from "../components/Contact.svelte";
     import "../app.css";
+    import "../misc/all.css";
 </script>
 
 <main>
