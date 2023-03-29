@@ -40,7 +40,7 @@ background: linear-gradient(
     hsl(160, 100%, 50%),
     hsl(202, 100%, 50%),
     hsl(240, 100%, 50%)
-  ), url('src/download.jpg');
+  ), url('./misc/download.jpg');
 background-size: cover;
 background-position: center;
 text-align: center;
