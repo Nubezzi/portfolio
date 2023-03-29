@@ -5,7 +5,7 @@
     import Hero from "../components/Hero.svelte"
     import Contact from "../components/Contact.svelte";
     import "../app.css";
-    import "../misc/all.css";
+    import "@fortawesome/fontawesome-free/css/all.css";
 </script>
 
 <main>
