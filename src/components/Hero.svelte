@@ -18,7 +18,7 @@
 
     onMount(() => {
       const image = new Image();
-      image.src = 'src/misc/download.jpg';
+      image.src = 'https://s10.gifyu.com/images/download92d2f59281060ff6.jpg';
       if (image.complete) {
         handleImageLoad();
       } else {
@@ -26,7 +26,7 @@
       }
       
       const gif = new Image();
-      gif.src = 'src/misc/gif.gif';
+      gif.src = 'https://s10.gifyu.com/images/giphy-1-1e188d481e2842fd5.gif';
       if (gif.complete) {
         handleGifLoad();
       } else {
