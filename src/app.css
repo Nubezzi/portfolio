@@ -47,7 +47,7 @@ text-align: center;
 background-blend-mode: overlay;
 animation: hue 5s linear infinite alternate;
 opacity: 0;
-transition: opacity 0.7s ease-in-out;
+transition: opacity 0.7s ease-in-out, background-image 0.7s;
 }
 
 #hero.loaded {
@@ -58,6 +58,7 @@ transition: opacity 0.7s ease-in-out;
       hsl(266, 100%, 50%)
     ), url('https://s10.gifyu.com/images/download92d2f59281060ff6.jpg');
   opacity: 1;
+  transition: background-image 0.7s ease-in-out, opacity 0.7s ease-in-out;
 }
 
 
@@ -70,6 +71,7 @@ transition: opacity 0.7s ease-in-out;
     
   );
   opacity: 1;
+  transition: background-image 0.7s ease-in-out, opacity 0.7s ease-in-out;
 }
 
 #hero.loaded-gif {
@@ -80,6 +82,7 @@ transition: opacity 0.7s ease-in-out;
       hsl(266, 100%, 50%)
     ), url('https://s10.gifyu.com/images/giphy-1-1e188d481e2842fd5.gif');
   opacity: 1;
+  transition: background-image 0.7s ease-in-out, opacity 0.7s ease-in-out;
 }
 
 @keyframes hue {
