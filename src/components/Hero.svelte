@@ -3,24 +3,40 @@
     let name = "Paavo Nurminen";
     let title = "Opiskelija & Kehittäjä";
     let buttonText = "Chekkaa lisää!";
-    let waiting = 0
-    function handleLoad() {
-      const hero = document.getElementById('hero');
-      hero.classList.add('loaded');
+    import { onMount } from 'svelte';
+
+    let heroElement;
+
+    function handleImageLoad() {
+      heroElement.classList.add('loaded');
     }
-    
-    const onload = el => {
-        waiting++
-        el.addEventListener('load', () => {
-          waiting--
-          if (waiting === 0) {
-            handleLoad()
-          }
-        })
+
+    function handleGifLoad() {
+      heroElement.classList.remove('loading');
+      heroElement.classList.add('loaded-gif');
     }
+
+    onMount(() => {
+      const image = new Image();
+      image.src = 'src/misc/download.jpg';
+      if (image.complete) {
+        handleImageLoad();
+      } else {
+        image.addEventListener('load', handleImageLoad);
+      }
+      
+      const gif = new Image();
+      gif.src = 'src/misc/gif.gif';
+      if (gif.complete) {
+        handleGifLoad();
+      } else {
+        heroElement.classList.add('loading');
+        gif.addEventListener('load', handleGifLoad);
+      }
+    });
   </script>
   
-  <section id="hero" class="hero" on:load|once={handleLoad()}>
+  <section id="hero" class="hero" bind:this={heroElement}>
     <div class="container">
       <h1>{name}</h1>
       <h2>{title}</h2>

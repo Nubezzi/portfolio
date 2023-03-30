@@ -56,8 +56,22 @@ transition: opacity 0.7s ease-in-out;
       hsl(147, 100%, 45%),
       hsl(199, 100%, 50%),
       hsl(266, 100%, 50%)
-    ), url('./misc/gif.gif');
+    ), url('./misc/download.jpg');
   opacity: 1;
+}
+
+
+#hero.loaded.loading {
+  background-image: linear-gradient(
+    to bottom,
+    hsl(160, 100%, 50%),
+    hsl(202, 100%, 50%),
+    hsl(240, 100%, 50%)
+  );
+}
+
+#hero.loaded.loaded-gif {
+  background-image: url('./misc/gif.gif');
 }
 
 @keyframes hue {
