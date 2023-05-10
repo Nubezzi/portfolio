@@ -35,12 +35,12 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-background: linear-gradient(
-    to bottom,
-    hsl(209, 100%, 19%),
+background-image: linear-gradient(
+      to bottom,
+      hsl(209, 100%, 19%),
     hsl(239, 100%, 8%),
     hsl(240, 100%, 3%)
-  );
+    ), url('./misc/Infinity-1s-204px.svg');
 background-size: cover;
 background-position: center;
 text-align: center;
