@@ -15,7 +15,7 @@
       heroElement.classList.remove('loading');
       heroElement.classList.add('loaded-gif');
     }
-
+      
     onMount(() => {
       const image = new Image();
       image.src = 'https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjc1MzhhYTRhMWQyNWNlNjA1MWExZGE3MjBhZWIxYjA1OGEzODkzYyZjdD1n/br9eVr1WVN2s19tLlL/giphy.gif';
