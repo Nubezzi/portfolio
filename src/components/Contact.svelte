@@ -11,7 +11,7 @@
   
       if (e.target.from_name && e.target.from_email && e.target.message) {
         console.log(e.target)
-        emailjs.sendForm('service_gpt', 'template_ok1mynr', e.target, 'KXUUTcmjiSRG6n4HB')
+        emailjs.sendForm('service_homepage', 'template_ok1mynr', e.target, 'KXUUTcmjiSRG6n4HB')
         .then(() => {
           alert('Message sent successfully!');
         }, (error) => {
