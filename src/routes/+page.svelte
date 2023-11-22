@@ -7,6 +7,7 @@
     import "../app.css";
     import "@fortawesome/fontawesome-free/css/all.css";
     import { isLoading } from 'svelte-i18n'
+    import Spinner from '../misc/Infinity-1s-204px.svelte'; // Import your spinner SVG 
 
     import { register, init, getLocaleFromNavigator } from 'svelte-i18n';
 
@@ -24,7 +25,9 @@ init({
 
 <main>
   {#if $isLoading}
-    Starting...
+    <div id="spin1">
+      <svelte:component this={Spinner} />
+    </div>
   {:else}
     <Navbar/>
     <Hero/>
@@ -36,5 +39,11 @@ init({
 </main>
 
 <style>
-    
+    #spin1{
+      width: 100%;
+      height: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
 </style>

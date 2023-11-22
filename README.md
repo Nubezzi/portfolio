@@ -1,38 +1,35 @@
-# create-svelte
+# Paavo Nurminen Portfolio site
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+My portfolio site to showcase skills, workexperience and provide contact info for possible employers or other interested parties
 
-## Creating a project
+## deployment
 
-If you're seeing this, you've probably already done this step. Congrats!
+To install necessary dependencies:
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
+```
+npm install
 ```
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
+To run the local environment for development
+```
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
 
-## Building
-
-To create a production version of your app:
-
-```bash
+To build the project:
+```
 npm run build
 ```
 
-You can preview the production build with `npm run preview`.
+## Localisation
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+Localisation for different languages is in src/localization/
+
+Each language has its own .json for storing language dependent content
+
+The content is served with svelte-i18n
+
+## email service
+
+Email service is handeled my email.js
+
+add a VITE_KEY env var for the public key to use it and modify contact.svelte with the correct details.

@@ -16,7 +16,7 @@
   function sendEmail(e) {
     isLoading = true; // Start loading
     spinnerHeight = `${formElement.offsetHeight}px`;
-    emailjs.sendForm('service_homepage', 'template_ok1mynr', e.target, 'KXUUTcmjiSRG6n4HB')
+    emailjs.sendForm('service_homepage', 'template_ok1mynr', e.target, import.meta.env.VITE_KEY)
     .then(() => {
       isLoading = false; // Stop loading
       alert('Message sent successfully!');
