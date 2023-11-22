@@ -1,8 +1,10 @@
 <script>
-    // You can customize these values as needed
-    let name = "Paavo Nurminen";
-    let title = "Opiskelija & Kehittäjä";
-    let buttonText = "Chekkaa lisää!";
+    import { t } from 'svelte-i18n';
+    
+    // console.log( $t('page_title'))
+    let name = $t('page_title')
+    let title = $t('page_title2')
+    let buttonText = $t('checkout')
     import { onMount } from 'svelte';
 
     let heroElement;

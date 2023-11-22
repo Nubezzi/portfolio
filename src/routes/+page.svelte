@@ -6,25 +6,35 @@
     import Contact from "../components/Contact.svelte";
     import "../app.css";
     import "@fortawesome/fontawesome-free/css/all.css";
+    import { isLoading } from 'svelte-i18n'
+
+    import { register, init, getLocaleFromNavigator } from 'svelte-i18n';
+
+// Register your JSON files
+register('en', () => import('../localization/en.json'));
+register('fi', () => import('../localization/fi.json'));
+
+// Initialize svelte-i18n
+init({
+  fallbackLocale: 'en',
+  initialLocale: getLocaleFromNavigator(),
+});
+  
 </script>
 
 <main>
-  <Navbar/>
-  <Hero/>
-  <Skills/>
-  <Education/>
-  <Contact/>
+  {#if $isLoading}
+    Starting...
+  {:else}
+    <Navbar/>
+    <Hero/>
+    <Skills/>
+    <Education/>
+    <Contact/>
+  {/if}
+  
 </main>
-<!--
-<section id="contact" class="container">
-  <h2>Contact</h2>
-  <p>Feel free to reach out to me:</p>
-  <p>Email: example@example.com</p>
-  <p>Phone: +1 (123) 456-7890</p>
-  <p>LinkedIn: <a href="https://www.linkedin.com/in/yourusername">https://www.linkedin.com/in/yourusername</a></p>
-  <p>GitHub: <a href="https://github.com/yourusername">https://github.com/yourusername</a></p>
-</section>
-  -->
+
 <style>
     
 </style>

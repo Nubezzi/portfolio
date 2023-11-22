@@ -11,6 +11,7 @@ html {
     scroll-behavior: smooth;
 }
 
+
 :not(i) {
   font-family: 'Prompt', sans-serif;
 }
@@ -26,6 +27,12 @@ line-height: 1.6;
 max-width: 1200px;
 margin: 0 auto;
 padding: 0 2rem;
+}
+
+.content_h2{
+  margin-left: 1vw;
+  margin-bottom: 1vw;
+  font-size: 1.8rem;
 }
 
 /* Hero Section */
@@ -349,6 +356,21 @@ width: 45%;
 margin-bottom: 2rem;
 }
 
+.spinner-container {
+  height: 522px;
+  width: 45%; /* Same as .contact-form */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem; /* Match font size of the form for consistent sizing */
+}
+
+/* Additional style for the spinner itself, if needed */
+.spinner {
+  width: 100%; /* Full width of the container */
+  height: auto; /* Maintain aspect ratio */
+}
+
 label {
 display: block;
 font-weight: bold;
@@ -462,6 +484,11 @@ left: calc(50% - 6px);
     .contact-form textarea {
       width: 100%;
       margin-bottom: 2rem;
+    }
+
+    .spinner-container {
+      width: 100%; /* Same as .contact-form */
+      margin-top: 2rem;
     }
   }
   
