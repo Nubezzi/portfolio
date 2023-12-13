@@ -8,6 +8,10 @@
     let isHovering7 = '';
     let isHovering8 = '';
     let isHovering9 = '';
+    let isHovering10 = '';
+    let isHovering11 = '';
+    let isHovering12 = '';
+    let isHovering13 = '';
     import { t } from 'svelte-i18n';
   </script>
 
@@ -118,6 +122,54 @@
         <div class="proficiency">
           <i class="fa-solid fa-file-code {isHovering9}" style="--fa-animation-duration: 1.5s;"></i>
           <i class="fa-solid fa-file-code {isHovering9}" style="--fa-animation-duration: 1.5s;"></i>
+          <i class="fa-regular fa-file-code"></i>
+          <i class="fa-regular fa-file-code"></i>
+          <i class="fa-regular fa-file-code"></i>
+        </div>
+      </div>
+      <div class="skill"  on:mouseenter={() => isHovering10 = 'fa-flip'} on:mouseleave={() => isHovering10 = ''}>
+        <img src="https://seeklogo.com/images/C/c-logo-A44DB3D53C-seeklogo.com.png" alt="C# logo" />
+        <h3>C#</h3>
+        <p>{$t('proficiency')}: </p>
+        <div class="proficiency">
+          <i class="fa-solid fa-file-code {isHovering10}" style="--fa-animation-duration: 1.5s;"></i>
+          <i class="fa-regular fa-file-code"></i>
+          <i class="fa-regular fa-file-code"></i>
+          <i class="fa-regular fa-file-code"></i>
+          <i class="fa-regular fa-file-code"></i>
+        </div>
+      </div>
+      <div class="skill"  on:mouseenter={() => isHovering11 = 'fa-flip'} on:mouseleave={() => isHovering11 = ''}>
+        <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" alt="Git logo" />
+        <h3>Git</h3>
+        <p>{$t('proficiency')}: </p>
+        <div class="proficiency">
+          <i class="fa-solid fa-file-code {isHovering11}" style="--fa-animation-duration: 1.5s;"></i>
+          <i class="fa-solid fa-file-code {isHovering11}" style="--fa-animation-duration: 1.5s;"></i>
+          <i class="fa-solid fa-file-code {isHovering11}" style="--fa-animation-duration: 1.5s;"></i>
+          <i class="fa-solid fa-file-code {isHovering11}" style="--fa-animation-duration: 1.5s;"></i>
+          <i class="fa-regular fa-file-code"></i>
+        </div>
+      </div>
+      <div class="skill"  on:mouseenter={() => isHovering12 = 'fa-flip'} on:mouseleave={() => isHovering12 = ''}>
+        <img src="https://www.eficode.com/hs-fs/hubfs/Eficode%202020%20site%20images/Hexagons/jira%20hexagon.png?width=500&name=jira%20hexagon.png" alt="Jira logo" />
+        <h3>Jira</h3>
+        <p>{$t('proficiency')}: </p>
+        <div class="proficiency">
+          <i class="fa-solid fa-file-code {isHovering12}" style="--fa-animation-duration: 1.5s;"></i>
+          <i class="fa-solid fa-file-code {isHovering12}" style="--fa-animation-duration: 1.5s;"></i>
+          <i class="fa-solid fa-file-code {isHovering12}" style="--fa-animation-duration: 1.5s;"></i>
+          <i class="fa-regular fa-file-code"></i>
+          <i class="fa-regular fa-file-code"></i>
+        </div>
+      </div>
+      <div class="skill"  on:mouseenter={() => isHovering13 = 'fa-flip'} on:mouseleave={() => isHovering13 = ''}>
+        <img src="https://assets.stickpng.com/images/62a9c7ab8ff6441a2952dad2.png" alt="Docker logo" />
+        <h3>Docker</h3>
+        <p>{$t('proficiency')}: </p>
+        <div class="proficiency">
+          <i class="fa-solid fa-file-code {isHovering13}" style="--fa-animation-duration: 1.5s;"></i>
+          <i class="fa-solid fa-file-code {isHovering13}" style="--fa-animation-duration: 1.5s;"></i>
           <i class="fa-regular fa-file-code"></i>
           <i class="fa-regular fa-file-code"></i>
           <i class="fa-regular fa-file-code"></i>

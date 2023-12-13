@@ -14,6 +14,7 @@
 		"@sveltejs/kit": "^1.0.0-next.587",
 		"svelte": "^3.54.0",
 		"svelte-check": "^2.9.2",
+		"svelte-intersection-observer": "^0.10.1",
 		"tslib": "^2.4.1",
 		"typescript": "^4.9.3",
 		"vite": "^4.0.0"
@@ -25,6 +26,7 @@
 		"emailjs": "^4.0.1",
 		"emailjs-com": "^3.2.0",
 		"svelte-i18n": "^4.0.0",
+		"svelte-inview": "^4.0.1",
 		"svelte-motion": "^0.11.5"
 	}
 }
