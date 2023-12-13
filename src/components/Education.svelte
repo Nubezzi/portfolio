@@ -39,7 +39,7 @@
       degree: "Ohjelmistokehitys- trainee",
       school: "Savox Communications Ltd",
       year: "2023 ->",
-      info: "Monipuolista ohjelmistokehitystä laitteiden testaukseen ja flashaykseen liittyen, sekä datankäsittelyä ja audioanalyysiä"
+      info: "Monipuolista ohjelmistokehitystä laitteiden testaukseen ja flashaykseen liittyen, sekä datankäsittelyä ja audioanalyysiä pythonilla"
     },
     {
       degree: "Tietotekniikan DI, Big Data and Large-Scale Computing",
@@ -83,7 +83,7 @@
     degree: "Software Development Trainee",
     school: "Savox Communications Ltd",
     year: "2023 ->",
-    info: "Varied developement for device testing and flashing. Also data and audio analysis"
+    info: "Varied developement for device testing and flashing. Also data and audio analysis with python"
   },
   {
     degree: "Master of Science in Technology, Big Data and Large-Scale Computing",
