@@ -20,6 +20,7 @@ body {
 color: #fff;
 background-color: #121212;
 line-height: 1.6;
+overflow-x: hidden;
 }
 
 /* Container */
@@ -137,7 +138,7 @@ margin-bottom: 1.5em;
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 100vw;
     height: 60px;
     background-color: rgba(0, 0, 0, 0.4);
     z-index: 100;
@@ -235,6 +236,7 @@ padding: 4rem 0;
 .timeline {
 position: relative;
 margin-bottom: 0rem;
+overflow-x: hidden;
 }
 
 .timeline p {
@@ -244,7 +246,7 @@ margin-bottom: 0rem;
 
 .timeline:before {
 content: '';
-position: absolute;
+position: relative;
 left: 50%;
 top: 0;
 bottom: 0;
@@ -259,6 +261,7 @@ padding: 1rem;
 box-sizing: border-box;
 clear: both;
 border-bottom: 1px solid #ccc;
+will-change: transform;
 }
 
 .timeline-entry:nth-child(odd) {
