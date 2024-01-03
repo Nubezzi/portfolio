@@ -164,7 +164,7 @@
         </div>
       </div>
       <div class="skill"  on:mouseenter={() => isHovering13 = 'fa-flip'} on:mouseleave={() => isHovering13 = ''}>
-        <img src="https://assets.stickpng.com/images/62a9c7ab8ff6441a2952dad2.png" alt="Docker logo" />
+        <img src="https://i0.wp.com/azuredays.com/wp-content/uploads/2020/06/docker-logo.png?ssl=1" alt="Docker logo" />
         <h3>Docker</h3>
         <p>{$t('proficiency')}: </p>
         <div class="proficiency">
