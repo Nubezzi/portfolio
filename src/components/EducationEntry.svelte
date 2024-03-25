@@ -7,7 +7,7 @@
         year: "",
         info: ""
     };
-    export var ind;
+    export var ind = 0;
 </script>
 
 <div use:inview={{ unobserveOnEnter: true, rootMargin: '0%' }} on:change={({ detail }) => { 

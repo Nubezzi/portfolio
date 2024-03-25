@@ -100,7 +100,7 @@ let lang = $t('lang')
 
 
 // Determine which entries to display based on the language
-let displayedEntries = lang == 'fi' ? educationEntries : educationEntries_en;
+let displayedEntries = lang == 'fi' ? educationEntries.reverse() : educationEntries_en.reverse();
 
 let intersecting = {};
 
