@@ -24,10 +24,10 @@
         <h3>HTML</h3>
         <p>{$t('proficiency')}: </p>
         <div class="proficiency">
-          <i class="fa-solid fa-file-code {isHovering1}" style="--fa-animation-duration: 0.5s;"></i>
-          <i class="fa-solid fa-file-code {isHovering1}" style="--fa-animation-duration: 0.5s;"></i>
-          <i class="fa-solid fa-file-code {isHovering1}" style="--fa-animation-duration: 0.5s;"></i>
-          <i class="fa-solid fa-file-code {isHovering1}" style="--fa-animation-duration: 0.5s;"></i>
+          <i class="fa-solid fa-file-code {isHovering1}" style="--fa-animation-duration: 0.1s;"></i>
+          <i class="fa-solid fa-file-code {isHovering1}" style="--fa-animation-duration: 0.1s;"></i>
+          <i class="fa-solid fa-file-code {isHovering1}" style="--fa-animation-duration: 0.1s;"></i>
+          <i class="fa-solid fa-file-code {isHovering1}" style="--fa-animation-duration: 0.1s;"></i>
           <i class="fa-regular fa-file-code"></i>
         </div>
       </div>
@@ -36,9 +36,9 @@
         <h3>CSS</h3>
         <p>{$t('proficiency')}: </p>
         <div class="proficiency">
-          <i class="fa-solid fa-file-code {isHovering2}" style="--fa-animation-duration: 0.5s;"></i>
-          <i class="fa-solid fa-file-code {isHovering2}" style="--fa-animation-duration: 0.5s;"></i>
-          <i class="fa-solid fa-file-code {isHovering2}" style="--fa-animation-duration: 0.5s;"></i>
+          <i class="fa-solid fa-file-code {isHovering2}" style="--fa-animation-duration: 0.1s;"></i>
+          <i class="fa-solid fa-file-code {isHovering2}" style="--fa-animation-duration: 0.1s;"></i>
+          <i class="fa-solid fa-file-code {isHovering2}" style="--fa-animation-duration: 0.1s;"></i>
           <i class="fa-regular fa-file-code"></i>
           <i class="fa-regular fa-file-code"></i>
         </div>
@@ -48,10 +48,10 @@
         <h3>JavaScript</h3>
         <p>{$t('proficiency')}: </p>
         <div class="proficiency">
-          <i class="fa-solid fa-file-code {isHovering3}" style="--fa-animation-duration: 0.5s;"></i>
-          <i class="fa-solid fa-file-code {isHovering3}" style="--fa-animation-duration: 0.5s;"></i>
-          <i class="fa-solid fa-file-code {isHovering3}" style="--fa-animation-duration: 0.5s;"></i>
-          <i class="fa-solid fa-file-code {isHovering3}" style="--fa-animation-duration: 0.5s;"></i>
+          <i class="fa-solid fa-file-code {isHovering3}" style="--fa-animation-duration: 0.1s;"></i>
+          <i class="fa-solid fa-file-code {isHovering3}" style="--fa-animation-duration: 0.1s;"></i>
+          <i class="fa-solid fa-file-code {isHovering3}" style="--fa-animation-duration: 0.1s;"></i>
+          <i class="fa-solid fa-file-code {isHovering3}" style="--fa-animation-duration: 0.1s;"></i>
           <i class="fa-regular fa-file-code"></i>
         </div>
       </div>
@@ -60,9 +60,9 @@
         <h3>Svelte</h3>
         <p>{$t('proficiency')}: </p>
         <div class="proficiency">
-          <i class="fa-solid fa-file-code {isHovering4}" style="--fa-animation-duration: 0.5s;"></i>
-          <i class="fa-solid fa-file-code {isHovering4}" style="--fa-animation-duration: 0.5s;"></i>
-          <i class="fa-solid fa-file-code {isHovering4}" style="--fa-animation-duration: 0.5s;"></i>
+          <i class="fa-solid fa-file-code {isHovering4}" style="--fa-animation-duration: 0.1s;"></i>
+          <i class="fa-solid fa-file-code {isHovering4}" style="--fa-animation-duration: 0.1s;"></i>
+          <i class="fa-solid fa-file-code {isHovering4}" style="--fa-animation-duration: 0.1s;"></i>
           <i class="fa-regular fa-file-code"></i>
           <i class="fa-regular fa-file-code"></i>
         </div>
@@ -72,9 +72,9 @@
         <h3>Node.js</h3>
         <p>{$t('proficiency')}: </p>
         <div class="proficiency">
-          <i class="fa-solid fa-file-code {isHovering5}" style="--fa-animation-duration: 0.5s;"></i>
-          <i class="fa-solid fa-file-code {isHovering5}" style="--fa-animation-duration: 0.5s;"></i>
-          <i class="fa-solid fa-file-code {isHovering5}" style="--fa-animation-duration: 0.5s;"></i>
+          <i class="fa-solid fa-file-code {isHovering5}" style="--fa-animation-duration: 0.1s;"></i>
+          <i class="fa-solid fa-file-code {isHovering5}" style="--fa-animation-duration: 0.1s;"></i>
+          <i class="fa-solid fa-file-code {isHovering5}" style="--fa-animation-duration: 0.1s;"></i>
           <i class="fa-regular fa-file-code"></i>
           <i class="fa-regular fa-file-code"></i>
         </div>
@@ -84,10 +84,10 @@
         <h3>Scala</h3>
         <p>{$t('proficiency')}: </p>
         <div class="proficiency">
-          <i class="fa-solid fa-file-code {isHovering6}" style="--fa-animation-duration: 0.5s;"></i>
-          <i class="fa-solid fa-file-code {isHovering6}" style="--fa-animation-duration: 0.5s;"></i>
-          <i class="fa-solid fa-file-code {isHovering6}" style="--fa-animation-duration: 0.5s;"></i>
-          <i class="fa-solid fa-file-code {isHovering6}" style="--fa-animation-duration: 0.5s;"></i>
+          <i class="fa-solid fa-file-code {isHovering6}" style="--fa-animation-duration: 0.1s;"></i>
+          <i class="fa-solid fa-file-code {isHovering6}" style="--fa-animation-duration: 0.1s;"></i>
+          <i class="fa-solid fa-file-code {isHovering6}" style="--fa-animation-duration: 0.1s;"></i>
+          <i class="fa-solid fa-file-code {isHovering6}" style="--fa-animation-duration: 0.1s;"></i>
           <i class="fa-regular fa-file-code"></i>
         </div>
       </div>
@@ -96,10 +96,10 @@
         <h3>React</h3>
         <p>{$t('proficiency')}: </p>
         <div class="proficiency">
-          <i class="fa-solid fa-file-code {isHovering7}" style="--fa-animation-duration: 0.5s;"></i>
-          <i class="fa-solid fa-file-code {isHovering7}" style="--fa-animation-duration: 0.5s;"></i>
-          <i class="fa-solid fa-file-code {isHovering7}" style="--fa-animation-duration: 0.5s;"></i>
-          <i class="fa-solid fa-file-code {isHovering7}" style="--fa-animation-duration: 0.5s;"></i>
+          <i class="fa-solid fa-file-code {isHovering7}" style="--fa-animation-duration: 0.1s;"></i>
+          <i class="fa-solid fa-file-code {isHovering7}" style="--fa-animation-duration: 0.1s;"></i>
+          <i class="fa-solid fa-file-code {isHovering7}" style="--fa-animation-duration: 0.1s;"></i>
+          <i class="fa-solid fa-file-code {isHovering7}" style="--fa-animation-duration: 0.1s;"></i>
           <i class="fa-regular fa-file-code"></i>
         </div>
       </div>
@@ -108,10 +108,10 @@
         <h3>Python</h3>
         <p>{$t('proficiency')}: </p>
         <div class="proficiency">
-          <i class="fa-solid fa-file-code {isHovering8}" style="--fa-animation-duration: 0.5s;"></i>
-          <i class="fa-solid fa-file-code {isHovering8}" style="--fa-animation-duration: 0.5s;"></i>
-          <i class="fa-solid fa-file-code {isHovering8}" style="--fa-animation-duration: 0.5s;"></i>
-          <i class="fa-solid fa-file-code {isHovering8}" style="--fa-animation-duration: 0.5s;"></i>
+          <i class="fa-solid fa-file-code {isHovering8}" style="--fa-animation-duration: 0.1s;"></i>
+          <i class="fa-solid fa-file-code {isHovering8}" style="--fa-animation-duration: 0.1s;"></i>
+          <i class="fa-solid fa-file-code {isHovering8}" style="--fa-animation-duration: 0.1s;"></i>
+          <i class="fa-solid fa-file-code {isHovering8}" style="--fa-animation-duration: 0.1s;"></i>
           <i class="fa-regular fa-file-code"></i>
         </div>
       </div>
@@ -120,8 +120,8 @@
         <h3>C</h3>
         <p>{$t('proficiency')}: </p>
         <div class="proficiency">
-          <i class="fa-solid fa-file-code {isHovering9}" style="--fa-animation-duration: 0.5s;"></i>
-          <i class="fa-solid fa-file-code {isHovering9}" style="--fa-animation-duration: 0.5s;"></i>
+          <i class="fa-solid fa-file-code {isHovering9}" style="--fa-animation-duration: 0.1s;"></i>
+          <i class="fa-solid fa-file-code {isHovering9}" style="--fa-animation-duration: 0.1s;"></i>
           <i class="fa-regular fa-file-code"></i>
           <i class="fa-regular fa-file-code"></i>
           <i class="fa-regular fa-file-code"></i>
@@ -132,7 +132,7 @@
         <h3>C#</h3>
         <p>{$t('proficiency')}: </p>
         <div class="proficiency">
-          <i class="fa-solid fa-file-code {isHovering10}" style="--fa-animation-duration: 0.5s;"></i>
+          <i class="fa-solid fa-file-code {isHovering10}" style="--fa-animation-duration: 0.1s;"></i>
           <i class="fa-regular fa-file-code"></i>
           <i class="fa-regular fa-file-code"></i>
           <i class="fa-regular fa-file-code"></i>
@@ -144,10 +144,10 @@
         <h3>Git</h3>
         <p>{$t('proficiency')}: </p>
         <div class="proficiency">
-          <i class="fa-solid fa-file-code {isHovering11}" style="--fa-animation-duration: 0.5s;"></i>
-          <i class="fa-solid fa-file-code {isHovering11}" style="--fa-animation-duration: 0.5s;"></i>
-          <i class="fa-solid fa-file-code {isHovering11}" style="--fa-animation-duration: 0.5s;"></i>
-          <i class="fa-solid fa-file-code {isHovering11}" style="--fa-animation-duration: 0.5s;"></i>
+          <i class="fa-solid fa-file-code {isHovering11}" style="--fa-animation-duration: 0.1s;"></i>
+          <i class="fa-solid fa-file-code {isHovering11}" style="--fa-animation-duration: 0.1s;"></i>
+          <i class="fa-solid fa-file-code {isHovering11}" style="--fa-animation-duration: 0.1s;"></i>
+          <i class="fa-solid fa-file-code {isHovering11}" style="--fa-animation-duration: 0.1s;"></i>
           <i class="fa-regular fa-file-code"></i>
         </div>
       </div>
@@ -156,9 +156,9 @@
         <h3>Jira</h3>
         <p>{$t('proficiency')}: </p>
         <div class="proficiency">
-          <i class="fa-solid fa-file-code {isHovering12}" style="--fa-animation-duration: 0.5s;"></i>
-          <i class="fa-solid fa-file-code {isHovering12}" style="--fa-animation-duration: 0.5s;"></i>
-          <i class="fa-solid fa-file-code {isHovering12}" style="--fa-animation-duration: 0.5s;"></i>
+          <i class="fa-solid fa-file-code {isHovering12}" style="--fa-animation-duration: 0.1s;"></i>
+          <i class="fa-solid fa-file-code {isHovering12}" style="--fa-animation-duration: 0.1s;"></i>
+          <i class="fa-solid fa-file-code {isHovering12}" style="--fa-animation-duration: 0.1s;"></i>
           <i class="fa-regular fa-file-code"></i>
           <i class="fa-regular fa-file-code"></i>
         </div>
@@ -168,8 +168,8 @@
         <h3>Docker</h3>
         <p>{$t('proficiency')}: </p>
         <div class="proficiency">
-          <i class="fa-solid fa-file-code {isHovering13}" style="--fa-animation-duration: 0.5s;"></i>
-          <i class="fa-solid fa-file-code {isHovering13}" style="--fa-animation-duration: 0.5s;"></i>
+          <i class="fa-solid fa-file-code {isHovering13}" style="--fa-animation-duration: 0.1s;"></i>
+          <i class="fa-solid fa-file-code {isHovering13}" style="--fa-animation-duration: 0.1s;"></i>
           <i class="fa-regular fa-file-code"></i>
           <i class="fa-regular fa-file-code"></i>
           <i class="fa-regular fa-file-code"></i>
