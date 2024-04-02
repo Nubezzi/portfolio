@@ -64,7 +64,7 @@ transition: opacity 0.7s ease-in-out, background-image 1.2s ease-in;
       hsl(147, 100%, 45%),
       hsl(199, 100%, 50%),
       hsl(266, 100%, 50%)
-    ), url('src/misc/gif.gif');
+    ), url('./misc/gif.gif');
   opacity: 1;
 }
 
@@ -87,7 +87,7 @@ transition: opacity 0.7s ease-in-out, background-image 1.2s ease-in;
       hsl(147, 100%, 45%),
       hsl(199, 100%, 50%),
       hsl(266, 100%, 50%)
-    ), url('src/misc/gif.gif');
+    ), url('./misc/gif.gif');
   opacity: 1;
 }
 
