@@ -64,7 +64,7 @@ transition: opacity 0.7s ease-in-out, background-image 1.2s ease-in;
       hsl(147, 100%, 45%),
       hsl(199, 100%, 50%),
       hsl(266, 100%, 50%)
-    ), url('https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjc1MzhhYTRhMWQyNWNlNjA1MWExZGE3MjBhZWIxYjA1OGEzODkzYyZjdD1n/br9eVr1WVN2s19tLlL/giphy.gif');
+    ), url('src/misc/gif.gif');
   opacity: 1;
 }
 
@@ -87,7 +87,7 @@ transition: opacity 0.7s ease-in-out, background-image 1.2s ease-in;
       hsl(147, 100%, 45%),
       hsl(199, 100%, 50%),
       hsl(266, 100%, 50%)
-    ), url('https://s10.gifyu.com/images/giphy-1-1e188d481e2842fd5.gif');
+    ), url('src/misc/gif.gif');
   opacity: 1;
 }
 
@@ -148,6 +148,7 @@ margin-bottom: 1.5em;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-right: 1.5vw;
 }
 
 .navbar a {

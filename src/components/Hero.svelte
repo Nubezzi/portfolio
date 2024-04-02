@@ -20,7 +20,9 @@
       
     onMount(() => {
       const image = new Image();
-      image.src = 'https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjc1MzhhYTRhMWQyNWNlNjA1MWExZGE3MjBhZWIxYjA1OGEzODkzYyZjdD1n/br9eVr1WVN2s19tLlL/giphy.gif';
+      
+      image.src = "src/misc/download.jpg"
+      // image.src = 'https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjc1MzhhYTRhMWQyNWNlNjA1MWExZGE3MjBhZWIxYjA1OGEzODkzYyZjdD1n/br9eVr1WVN2s19tLlL/giphy.gif';
       if (image.complete) {
         handleImageLoad();
       } else {
@@ -28,7 +30,8 @@
       }
       
       const gif = new Image();
-      gif.src = 'https://s10.gifyu.com/images/giphy-1-1e188d481e2842fd5.gif';
+      gif.src = "src/misc/gif.gif"
+      // gif.src = 'https://s10.gifyu.com/images/giphy-1-1e188d481e2842fd5.gif';
       if (gif.complete) {
         handleGifLoad();
       } else {
