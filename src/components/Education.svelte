@@ -38,7 +38,7 @@
     {
       degree: "Ohjelmistokehitys- trainee",
       school: "Savox Communications Ltd",
-      year: "2023 ->",
+      year: "2023 - 2024",
       info: "Monipuolista ohjelmistokehitystä laitteiden testaukseen ja flashaykseen liittyen, sekä datankäsittelyä ja audioanalyysiä pythonilla"
     },
     {
@@ -47,6 +47,12 @@
       year: "2023 ->",
       info: ""
     },
+    {
+      degree: "Junior Software Developer",
+      school: "Accountor HR Solutions",
+      year: "2024 ->",
+      info: "Fullstack kehitystä React+ts/.NET stackilla"
+    }
   ];
   let educationEntries_en = [
   {
@@ -82,7 +88,7 @@
   {
     degree: "Software Development Trainee",
     school: "Savox Communications Ltd",
-    year: "2023 ->",
+    year: "2023 - 2024",
     info: "Varied developement for device testing and flashing. Also data and audio analysis with python"
   },
   {
@@ -91,6 +97,12 @@
     year: "2023 ->",
     info: ""
   },
+  {
+    degree: "Junior Software Developer",
+    school: "Accountor HR Solutions",
+    year: "2024 ->",
+    info: "Fullstack development with React+TS/.NET"
+  }
 ];
 
 import { t } from 'svelte-i18n';
